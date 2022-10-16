@@ -2,7 +2,7 @@ body {
   background: blanchedalmond;
 }
 * {
-  border: 10px solid lightgray
+  border: 1px solid lightgray
 }
 .container {
   display: flex;

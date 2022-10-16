@@ -1,3 +1,20 @@
 body {
   background: peachpuff;
 }
+.container1 {
+  displays: flex;
+  min-height: 99vh;
+  flex-direction: column;
+  row-gap: .5em;
+}
+
+.container, .main, header, footer {
+  border: 1px solid gray;
+}
+main, header, footer {
+  font-size: 4em;
+}
+header, footer {
+  flex-grow: 1;
+}
+
